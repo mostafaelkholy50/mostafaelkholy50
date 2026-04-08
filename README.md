@@ -9,7 +9,7 @@
 
 <p align="center">
   <a href="https://github.com/mostafaelkholy50">
-    <img src="https://img.shields.io/github/followers/YOUR_GITHUB_USERNAME?style=for-the-badge&logo=github&label=Follow" />
+    <img src="https://img.shields.io/github/followers/mostafaelkholy50?style=for-the-badge&logo=github&label=Follow" />
   </a>
   <a href="https://github.com/mostafaelkholy50?tab=repositories">
     <img src="https://img.shields.io/github/stars/mostafaelkholy50?style=for-the-badge&logo=github&label=Stars" />
@@ -17,20 +17,18 @@
   <img src="https://img.shields.io/badge/Backend-Laravel%20%7C%20PHP-ff2d20?style=for-the-badge&logo=laravel&logoColor=white" />
 </p>
 
-
-
 <table>
   <tr>
     <td valign="top" width="60%">
       <h3>About me</h3>
       <p>
-        I'm a backend developer who works mainly with <b>Laravel</b>, <b>MySQL</b>, and <b>REST APIs</b>.
-        I also worked on front-end parts using <b>React</b> and <b>jQuery</b>, and I integrated
-        <b>Stripe payments</b>, <b>WebSockets / real-time chat</b>, <b>RBAC</b>, <b>notifications</b>,
-        and <b>multi-tenant architecture</b>.
+        I'm a backend developer specializing in <b>Laravel</b>, <b>MySQL</b>, and <b>REST APIs</b>.
+        I have experience integrating <b>Stripe payments</b>, building <b>real-time systems (WebSockets)</b>,
+        implementing <b>RBAC</b>, and designing <b>multi-tenant architectures</b>.
       </p>
       <p>
-        My focus is clean code, strong database design, performance, and building systems that solve real business problems.
+        I focus on clean architecture, strong database design, performance optimization,
+        and building systems that solve real-world business problems.
       </p>
     </td>
     <td valign="top" width="40%">
@@ -53,7 +51,7 @@
   <img alt="Sanctum" src="https://img.shields.io/badge/-Sanctum-8b5cf6?style=flat-square&logo=laravel&logoColor=white" />
   <img alt="Stripe" src="https://img.shields.io/badge/-Stripe-635bff?style=flat-square&logo=stripe&logoColor=white" />
   <img alt="WebSockets" src="https://img.shields.io/badge/-WebSockets-14b8a6?style=flat-square&logo=socketdotio&logoColor=white" />
-  <img alt="Multitenant" src="https://img.shields.io/badge/-Multitenant-111827?style=flat-square&logo=vercel&logoColor=white" />
+  <img alt="Multi-tenant" src="https://img.shields.io/badge/-Multi--Tenant-111827?style=flat-square&logo=vercel&logoColor=white" />
   <img alt="Filament" src="https://img.shields.io/badge/-Filament%20v3-f59e0b?style=flat-square&logo=laravel&logoColor=white" />
   <img alt="Livewire" src="https://img.shields.io/badge/-Livewire-38bdf8?style=flat-square&logo=livewire&logoColor=white" />
   <img alt="React" src="https://img.shields.io/badge/-React-61dafb?style=flat-square&logo=react&logoColor=black" />
@@ -65,76 +63,71 @@
   <img alt="Docker" src="https://img.shields.io/badge/-Docker-2496ed?style=flat-square&logo=docker&logoColor=white" />
 </p>
 
-<h3>What I worked on</h3>
+<h3>What I build</h3>
 
 <table>
   <tr>
     <td>
       <b>API Development</b><br/>
-      Clean REST APIs with authentication, validation, resource transformation, and scalable structure.
+      Scalable REST APIs with authentication, validation, and clean architecture.
     </td>
     <td>
       <b>Payments</b><br/>
-      Stripe integration for checkout, payment intent flow, webhook handling, and order status automation.
+      Stripe integration (Payment Intents, Webhooks, order lifecycle automation).
     </td>
   </tr>
   <tr>
     <td>
-      <b>Real-time Features</b><br/>
-      WebSockets, live chat, notifications, and dynamic user interactions.
+      <b>Real-time Systems</b><br/>
+      WebSockets, live chat, notifications, and event-driven features.
     </td>
     <td>
-      <b>Multi-tenant Systems</b><br/>
-      Tenant-aware data separation, role-based access, and secure admin dashboards.
+      <b>Multi-tenant Platforms</b><br/>
+      Isolated tenant databases, RBAC, and scalable SaaS architecture.
     </td>
   </tr>
   <tr>
     <td>
-      <b>Admin Panels</b><br/>
-      Filament-based dashboards, CRUD tools, filters, tables, and structured workflows.
+      <b>Admin Dashboards</b><br/>
+      Filament-based panels with powerful CRUD, filters, and workflows.
     </td>
     <td>
       <b>Database Design</b><br/>
-      Strong schema design, relationships, stock logic, subscriptions, and performance-focused queries.
+      Optimized schema design, relationships, and performance-focused queries.
     </td>
   </tr>
 </table>
 
-<h3>Core skills from my projects</h3>
+<h3>Core strengths</h3>
 
 <p>
-  <img src="https://img.shields.io/badge/-Laravel%20Architecture-ff2d20?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/-MySQL%20Design-4479A1?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/-API%20Development-0f172a?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/-Stripe%20Integration-635bff?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/-Real--Time%20Chat-14b8a6?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/-Multi--Tenant%20Apps-111827?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/-Admin%20Dashboards-f59e0b?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/-Auth%20%26%20RBAC-8b5cf6?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/-Notifications-38bdf8?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/-Stock%20Management-16a34a?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/-Backend%20Architecture-111827?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/-Laravel%20Performance-ff2d20?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/-API%20Design-0f172a?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/-Real--Time%20Apps-14b8a6?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/-Multi--Tenant%20Systems-111827?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/-RBAC%20%26%20Auth-8b5cf6?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/-Payments%20Integration-635bff?style=for-the-badge" />
 </p>
 
 <h3>Developer environment</h3>
 
 <p align="center">
- <img 
-    src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&fm=jpg&q=60&w=1200" 
-    alt="Backend and database" 
-    width="32%" 
-  />
-  <img 
-    src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&fm=jpg&q=60&w=1200" 
-    alt="Code and hardware" 
-    width="32%" 
-  />
-  <img 
-    src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&fm=jpg&q=60&w=1200" 
-    alt="Developer desk" 
-    width="32%" 
-  />
+  <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&fm=jpg&q=60&w=1200" width="32%" />
+  <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&fm=jpg&q=60&w=1200" width="32%" />
+  <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&fm=jpg&q=60&w=1200" width="32%" />
 </p>
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=gradient" />
+<h3>Connect with me</h3>
+
+<p>
+  <a href="https://github.com/mostafaelkholy50" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+  <a href="https://www.linkedin.com/in/YOUR_LINKEDIN_USERNAME" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="mailto:mostafaelkholy4321@gmail.com">
+    <img src="https://img.shields.io/badge/Email-d14836?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
 </p>
