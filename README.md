@@ -17,9 +17,7 @@
   <img src="https://img.shields.io/badge/Backend-Laravel%20%7C%20PHP-ff2d20?style=for-the-badge&logo=laravel&logoColor=white" />
 </p>
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=180&text=Building%20clean%20APIs%20%26%20scalable%20systems&fontAlign=50&fontAlignY=35&color=gradient" />
-</p>
+
 
 <table>
   <tr>
