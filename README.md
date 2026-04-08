@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35" />
+  <img src="https://iam-weijie.github.io/wave/hand-emoji.svg" alt="Wave" width="40" />
   Hey, I'm Mostafa Ahmed Elkholy
 </h1>
 
@@ -35,7 +35,11 @@
       </p>
     </td>
     <td valign="top" width="40%">
-      <img src="https://media.giphy.com/media/juua9i2c2fA0AIp2iq/giphy.gif" width="100%" />
+      <img
+        src="https://images.unsplash.com/photo-1546483875-ad9014c88eba?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGd5bSUyMGZpdG5lc3N8ZW58MHx8MHx8fDA%3D&ixlib=rb-4.1.0&q=60&w=1200"
+        alt="Gym workout"
+        width="100%"
+      />
     </td>
   </tr>
 </table>
@@ -114,12 +118,104 @@
       <td>Doctor booking, real-time chat, payments, secure APIs, notifications</td>
     </tr>
     <tr>
-      <td><b>Home Services</b></td>
-      <td>Laravel • Multi-tenant architecture</td>
-      <td>Tenant-based platform structure, service workflows, admin control</td>
+      <td><b>GymPro</b></td>
+      <td>Laravel 12 • stancl/tenancy • Reverb • MySQL</td>
+      <td>Multi-tenant gym management, central SuperAdmin, isolated tenant databases, POS, subscriptions, support chat</td>
     </tr>
   </tbody>
 </table>
+
+<h3># GymPro - Multi-Tenant Gym Management System</h3>
+
+<p>
+  <b>GymPro</b> is an advanced multi-tenant gym and fitness management system.
+  It uses a <b>Database-per-Tenant</b> architecture so every gym gets its own isolated database and its own subdomain,
+  which gives strong data separation, security, and scalability.
+</p>
+
+<p align="center">
+  <img
+    src="https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGd5bSUyMGZpdG5lc3N8ZW58MHx8MHx8fDA%3D&ixlib=rb-4.1.0&q=60&w=1200"
+    alt="Gym 1"
+    width="32%"
+  />
+  <img
+    src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Z3ltJTIwZml0bmVzc3xlbnwwfHwwfHx8MA%3D%3D&ixlib=rb-4.1.0&q=60&w=1200"
+    alt="Gym 2"
+    width="32%"
+  />
+  <img
+    src="https://images.unsplash.com/photo-1546483875-ad9014c88eba?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGd5bSUyMGZpdG5lc3N8ZW58MHx8MHx8fDA%3D&ixlib=rb-4.1.0&q=60&w=1200"
+    alt="Gym 3"
+    width="32%"
+  />
+</p>
+
+<h4>Overview</h4>
+<p>
+  The platform runs a central SuperAdmin dashboard that can create, pause, delete, back up, and restore tenants dynamically.
+  Each gym gets its own database, its own data, and its own isolated runtime.
+</p>
+
+<h4>Tech stack</h4>
+<ul>
+  <li><b>Framework:</b> Laravel 12 (PHP 8.3)</li>
+  <li><b>Multi-Tenancy:</b> stancl/tenancy</li>
+  <li><b>Database:</b> MySQL</li>
+  <li><b>Frontend:</b> Blade, Tailwind CSS v3, Alpine.js</li>
+  <li><b>Real-Time:</b> Laravel Echo & Laravel Reverb</li>
+  <li><b>Asset Bundling:</b> Vite</li>
+</ul>
+
+<h4>System architecture</h4>
+
+<table>
+  <tr>
+    <td valign="top" width="50%">
+      <b>Central Application (SuperAdmin)</b>
+      <ul>
+        <li>Tenant lifecycle management: create, pause, delete</li>
+        <li>Automatic tenant migrations inside isolated databases</li>
+        <li>Universal backup system with JSON export and smart restore</li>
+        <li>Statistical dashboard for global metrics</li>
+        <li>Central support center with real-time chat</li>
+      </ul>
+    </td>
+    <td valign="top" width="50%">
+      <b>Tenant Application (Individual Gyms)</b>
+      <ul>
+        <li>Client and subscriptions management</li>
+        <li>Coaches repository</li>
+        <li>Plans and packages</li>
+        <li>POS and attendance system</li>
+        <li>Real-time live support</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<h4>Feature highlights</h4>
+<ul>
+  <li>Edge-to-edge responsive UI</li>
+  <li>Smart data upsert restorations</li>
+  <li>RTL/LTR dynamic layouts</li>
+  <li>Zero-polling interactions via Reverb</li>
+</ul>
+
+<h4>Local development setup</h4>
+
+<pre><code>composer install
+npm install
+php artisan migrate
+npm run dev
+php artisan reverb:start</code></pre>
+
+<h4>Helpful artisan commands</h4>
+<ul>
+  <li><code>php artisan tenants:migrate</code> — execute migrations across all tenant databases</li>
+  <li><code>php artisan tenants:run shell</code> — interact with a specific tenant manually</li>
+  <li><code>php artisan tenants:run cache:clear</code> — clear cache across instances</li>
+</ul>
 
 <h3>GitHub stats</h3>
 
