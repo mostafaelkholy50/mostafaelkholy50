@@ -4,7 +4,7 @@
 </h1>
 
 <p align="center">
-  <b>Backend Laravel Developer</b> who builds scalable web apps, payment flows, real-time features, and multi-tenant systems.
+  <b>Backend Laravel Developer</b> focused on building scalable APIs, payment systems, real-time features, and multi-tenant platforms.
 </p>
 
 <p align="center">
@@ -26,18 +26,19 @@
     <td valign="top" width="60%">
       <h3>About me</h3>
       <p>
-        I'm a backend developer focused on building reliable systems with <b>Laravel</b>, <b>MySQL</b>, and <b>REST APIs</b>.
-        I also worked on projects using <b>React</b> and <b>jQuery</b>, and integrated features like <b>Stripe payments</b>,
-        <b>WebSockets / real-time chat</b>, <b>RBAC</b>, <b>notifications</b>, and <b>multi-tenant architecture</b>.
+        I'm a backend developer who works mainly with <b>Laravel</b>, <b>MySQL</b>, and <b>REST APIs</b>.
+        I also worked on front-end parts using <b>React</b> and <b>jQuery</b>, and I integrated
+        <b>Stripe payments</b>, <b>WebSockets / real-time chat</b>, <b>RBAC</b>, <b>notifications</b>,
+        and <b>multi-tenant architecture</b>.
       </p>
       <p>
-        I care about clean code, structured databases, performance, and solving real business problems, not just writing endpoints.
+        My focus is clean code, strong database design, performance, and building systems that solve real business problems.
       </p>
     </td>
     <td valign="top" width="40%">
       <img
-        src="https://images.unsplash.com/photo-1546483875-ad9014c88eba?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGd5bSUyMGZpdG5lc3N8ZW58MHx8MHx8fDA%3D&ixlib=rb-4.1.0&q=60&w=1200"
-        alt="Gym workout"
+        src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&fm=jpg&q=60&w=1200"
+        alt="Code screen"
         width="100%"
       />
     </td>
@@ -66,7 +67,7 @@
   <img alt="Docker" src="https://img.shields.io/badge/-Docker-2496ed?style=flat-square&logo=docker&logoColor=white" />
 </p>
 
-<h3>What I build</h3>
+<h3>What I worked on</h3>
 
 <table>
   <tr>
@@ -89,163 +90,51 @@
       Tenant-aware data separation, role-based access, and secure admin dashboards.
     </td>
   </tr>
-</table>
-
-<h3>Featured projects</h3>
-
-<table>
-  <thead align="center">
-    <tr>
-      <td><b>Project</b></td>
-      <td><b>Stack</b></td>
-      <td><b>Highlights</b></td>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><b>Ascend Quran</b></td>
-      <td>Laravel • MySQL • Admin panels</td>
-      <td>Student/teacher/parent management, booking, schedules, payments, reports</td>
-    </tr>
-    <tr>
-      <td><b>Replay</b></td>
-      <td>Laravel • React • E-commerce</td>
-      <td>Products with sizes/colors, stock control, media uploads, admin dashboard</td>
-    </tr>
-    <tr>
-      <td><b>Medical Application</b></td>
-      <td>Laravel • Sanctum • Stripe • WebSockets</td>
-      <td>Doctor booking, real-time chat, payments, secure APIs, notifications</td>
-    </tr>
-    <tr>
-      <td><b>GymPro</b></td>
-      <td>Laravel 12 • stancl/tenancy • Reverb • MySQL</td>
-      <td>Multi-tenant gym management, central SuperAdmin, isolated tenant databases, POS, subscriptions, support chat</td>
-    </tr>
-  </tbody>
-</table>
-
-<h3># GymPro - Multi-Tenant Gym Management System</h3>
-
-<p>
-  <b>GymPro</b> is an advanced multi-tenant gym and fitness management system.
-  It uses a <b>Database-per-Tenant</b> architecture so every gym gets its own isolated database and its own subdomain,
-  which gives strong data separation, security, and scalability.
-</p>
-
-<p align="center">
-  <img
-    src="https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGd5bSUyMGZpdG5lc3N8ZW58MHx8MHx8fDA%3D&ixlib=rb-4.1.0&q=60&w=1200"
-    alt="Gym 1"
-    width="32%"
-  />
-  <img
-    src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Z3ltJTIwZml0bmVzc3xlbnwwfHwwfHx8MA%3D%3D&ixlib=rb-4.1.0&q=60&w=1200"
-    alt="Gym 2"
-    width="32%"
-  />
-  <img
-    src="https://images.unsplash.com/photo-1546483875-ad9014c88eba?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGd5bSUyMGZpdG5lc3N8ZW58MHx8MHx8fDA%3D&ixlib=rb-4.1.0&q=60&w=1200"
-    alt="Gym 3"
-    width="32%"
-  />
-</p>
-
-<h4>Overview</h4>
-<p>
-  The platform runs a central SuperAdmin dashboard that can create, pause, delete, back up, and restore tenants dynamically.
-  Each gym gets its own database, its own data, and its own isolated runtime.
-</p>
-
-<h4>Tech stack</h4>
-<ul>
-  <li><b>Framework:</b> Laravel 12 (PHP 8.3)</li>
-  <li><b>Multi-Tenancy:</b> stancl/tenancy</li>
-  <li><b>Database:</b> MySQL</li>
-  <li><b>Frontend:</b> Blade, Tailwind CSS v3, Alpine.js</li>
-  <li><b>Real-Time:</b> Laravel Echo & Laravel Reverb</li>
-  <li><b>Asset Bundling:</b> Vite</li>
-</ul>
-
-<h4>System architecture</h4>
-
-<table>
   <tr>
-    <td valign="top" width="50%">
-      <b>Central Application (SuperAdmin)</b>
-      <ul>
-        <li>Tenant lifecycle management: create, pause, delete</li>
-        <li>Automatic tenant migrations inside isolated databases</li>
-        <li>Universal backup system with JSON export and smart restore</li>
-        <li>Statistical dashboard for global metrics</li>
-        <li>Central support center with real-time chat</li>
-      </ul>
+    <td>
+      <b>Admin Panels</b><br/>
+      Filament-based dashboards, CRUD tools, filters, tables, and structured workflows.
     </td>
-    <td valign="top" width="50%">
-      <b>Tenant Application (Individual Gyms)</b>
-      <ul>
-        <li>Client and subscriptions management</li>
-        <li>Coaches repository</li>
-        <li>Plans and packages</li>
-        <li>POS and attendance system</li>
-        <li>Real-time live support</li>
-      </ul>
+    <td>
+      <b>Database Design</b><br/>
+      Strong schema design, relationships, stock logic, subscriptions, and performance-focused queries.
     </td>
   </tr>
 </table>
 
-<h4>Feature highlights</h4>
-<ul>
-  <li>Edge-to-edge responsive UI</li>
-  <li>Smart data upsert restorations</li>
-  <li>RTL/LTR dynamic layouts</li>
-  <li>Zero-polling interactions via Reverb</li>
-</ul>
+<h3>Core skills from my projects</h3>
 
-<h4>Local development setup</h4>
+<p>
+  <img src="https://img.shields.io/badge/-Laravel%20Architecture-ff2d20?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/-MySQL%20Design-4479A1?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/-API%20Development-0f172a?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/-Stripe%20Integration-635bff?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/-Real--Time%20Chat-14b8a6?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/-Multi--Tenant%20Apps-111827?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/-Admin%20Dashboards-f59e0b?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/-Auth%20%26%20RBAC-8b5cf6?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/-Notifications-38bdf8?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/-Stock%20Management-16a34a?style=for-the-badge" />
+</p>
 
-<pre><code>composer install
-npm install
-php artisan migrate
-npm run dev
-php artisan reverb:start</code></pre>
-
-<h4>Helpful artisan commands</h4>
-<ul>
-  <li><code>php artisan tenants:migrate</code> — execute migrations across all tenant databases</li>
-  <li><code>php artisan tenants:run shell</code> — interact with a specific tenant manually</li>
-  <li><code>php artisan tenants:run cache:clear</code> — clear cache across instances</li>
-</ul>
-
-<h3>GitHub stats</h3>
+<h3>Developer environment</h3>
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=tokyonight&hide_border=true" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=tokyonight&hide_border=true" />
-</p>
-
-<h3>Currently focused on</h3>
-
-<p>
-  <img src="https://img.shields.io/badge/-Backend%20Architecture-111827?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/-Laravel%20Performance-ff2d20?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/-Real%20Time%20Apps-14b8a6?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/-Scalable%20E%20Commerce-8b5cf6?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/-Full%20Stack%20Growth-0ea5e9?style=for-the-badge" />
-</p>
-
-<h3>Let's connect</h3>
-
-<p>
-  <a href="https://github.com/YOUR_GITHUB_USERNAME" target="_blank">
-    <img alt="GitHub" src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
-  </a>
-  <a href="https://www.linkedin.com/in/YOUR_LINKEDIN_USERNAME" target="_blank">
-    <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  <a href="mailto:YOUR_EMAIL@example.com">
-    <img alt="Email" src="https://img.shields.io/badge/Email-d14836?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
+  <img
+    src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&fm=jpg&q=60&w=1200"
+    alt="Backend and database"
+    width="32%"
+  />
+  <img
+    src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&fm=jpg&q=60&w=1200"
+    alt="Coding"
+    width="32%"
+  />
+  <img
+    src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&fm=jpg&q=60&w=1200"
+    alt="Developer desk"
+    width="32%"
+  />
 </p>
 
 <p align="center">
