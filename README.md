@@ -8,11 +8,11 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/YOUR_GITHUB_USERNAME">
+  <a href="https://github.com/mostafaelkholy50">
     <img src="https://img.shields.io/github/followers/YOUR_GITHUB_USERNAME?style=for-the-badge&logo=github&label=Follow" />
   </a>
-  <a href="https://github.com/YOUR_GITHUB_USERNAME?tab=repositories">
-    <img src="https://img.shields.io/github/stars/YOUR_GITHUB_USERNAME?style=for-the-badge&logo=github&label=Stars" />
+  <a href="https://github.com/mostafaelkholy50?tab=repositories">
+    <img src="https://img.shields.io/github/stars/mostafaelkholy50?style=for-the-badge&logo=github&label=Stars" />
   </a>
   <img src="https://img.shields.io/badge/Backend-Laravel%20%7C%20PHP-ff2d20?style=for-the-badge&logo=laravel&logoColor=white" />
 </p>
