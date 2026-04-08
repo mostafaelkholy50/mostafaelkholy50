@@ -120,20 +120,20 @@
 <h3>Developer environment</h3>
 
 <p align="center">
-  <img
-    src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&fm=jpg&q=60&w=1200"
-    alt="Backend and database"
-    width="32%"
+ <img 
+    src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&fm=jpg&q=60&w=1200" 
+    alt="Backend and database" 
+    width="32%" 
   />
-  <img
-    src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&fm=jpg&q=60&w=1200"
-    alt="Coding"
-    width="32%"
+  <img 
+    src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&fm=jpg&q=60&w=1200" 
+    alt="Code and hardware" 
+    width="32%" 
   />
-  <img
-    src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&fm=jpg&q=60&w=1200"
-    alt="Developer desk"
-    width="32%"
+  <img 
+    src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&fm=jpg&q=60&w=1200" 
+    alt="Developer desk" 
+    width="32%" 
   />
 </p>
 
